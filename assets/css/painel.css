@@ -1,0 +1,200 @@
+.conteudo *, p{
+    color: #333 !important;
+}
+
+small a{
+
+}
+
+.painel{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+
+.painel label, h2{
+    display: block;
+    color: #ffffff;
+}
+
+.painel input{
+    display: block;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.painel h2{
+    color: #fcbc4f;
+}
+
+.botao{
+    margin-top: 10px;
+    display: block;
+}
+
+.botao_login{
+    margin-top: 10px !important;
+}
+
+.msg-box{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.preto{
+    color: #361010 !important;
+}
+
+.preto p{
+    color: #000000 !important;
+}
+
+.msg_box_listagem{
+    text-align: center;
+}
+.msg-box p{
+    color: #ffffff !important;
+}
+
+.msg_box_listagem h2{
+    color: #000000 !important;
+    text-align: center;
+}
+
+nav{
+    display: block;
+    height: 50px;
+    background: #fcbc4f;
+    opacity: 0.7;
+}
+
+.menu{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.menu ul li{
+    display: inline;
+    margin: 10px 10px 0px 0px;
+}
+
+.conteudo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0px 200px 0px;
+}
+.conteudo h1,p{
+    color: #ffffff;
+}
+
+.painel_logado{
+    display: block;
+}
+
+.painel_logado label{
+    display: block;
+}
+
+.painel_logado h2{
+    display: block;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.painel_logado form{
+    display: block;
+    width: 300px;
+}
+.formulario{
+    display: block;
+    margin-top: 0px;
+    width: 210px;
+    margin-top: 20px;
+}
+
+.formulario form{
+    display: block;
+    margin: 0 auto;
+}
+
+.formulario label{
+    display: block;
+}
+
+.formulario input{
+    display: block;
+}
+
+.margem{
+    margin-top: 10px;
+}
+
+.table td{
+    vertical-align: middle;
+}
+
+.botao_adiciona{
+    margin-top: 10px;
+}
+
+.deleta_arquivo{
+    cursor: pointer;
+    margin: 10px 20px 0px 50px;
+}
+
+.deleta_arquivo:hover{
+    text-decoration: underline !important;
+}
+
+.link_remover{
+    float: right;
+    padding: 0px;
+}
+
+.link_arquivo{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.arquivos_gravados{
+    display: block; 
+}
+
+.label_login , .titulo_login{
+    text-align: center !important;
+}
+
+.adicionarCampoAddGuia{
+    margin-top: 10px;
+}
+
+.organiza{
+    display: inline-block;
+    max-width: 100px;
+    word-break: break-all;
+}
+
+.msg_box_configuracao{
+    margin-top: 10px;
+}
+
+.radio{
+    display: inline-block !important;
+    margin-top: 5px;
+}
+.alinha-centro{
+	text-align: center;
+}
+
+
+
+
+
+
+

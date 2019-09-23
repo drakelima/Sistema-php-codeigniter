@@ -1,0 +1,399 @@
+@charset "utf-8";
+
+
+	   	/*-----	APRESENTAÇÃO-----*/
+		.conteudo_total .sobre_o_projeto{
+			display:block;
+			height: 23px;
+			border-bottom: 1px solid #dddddd;
+			vertical-align: top;
+			margin-bottom: 28px;
+		}
+
+		.conteudo_total .fonte_apresentacao{
+			line-height: 15px;
+			text-align: justify;
+		}
+
+		.conteudo_total .profletras{
+			color: #00a0a0;
+		}
+
+		.conteudo_total .profletras:hover{
+			text-decoration: underline;
+		}
+
+
+		.conteudo_total p {
+			text-align: justify;
+		}
+
+		.conteudo_total .img{
+			float: left;
+			border: 1px solid #bab9ba;
+			margin: 0px 18px 14px 0px;
+		}
+
+		.conteudo_total .img:hover{
+			border: 1px solid #34adad;
+		}
+
+		/*-----	ESTRUTURA CURRICULAR-----*/
+
+		.conteudo_total .disciplinas{
+			display: block;
+			border-bottom: 1px solid #dddddd;
+			margin-bottom: 30px;
+
+		}
+
+		.conteudo_total .fonte_estrutura{
+			margin-bottom: 44px;
+
+		}
+
+		.conteudo_total .ul_estrutura{
+			padding-left: 38px;
+		}
+
+		.conteudo_total ul li{
+			list-style: square outside none;
+		}
+
+		.conteudo_total .opcao{
+			text-decoration: none;
+			font-size: 12px;
+			font-family: arial;
+			margin-bottom: 20px;
+			display: block;
+		}
+
+		.conteudo_total .opcao:hover{
+			color: #00a0a0;
+		}
+
+		/*-----	Documentos Lista -----*/
+
+		.conteudo_total .documentos_lista{
+			display: block;
+			border-bottom: 1px solid #dddddd;
+			margin-bottom: 30px;
+		}
+
+		.conteudo_total .fonte_documentos_lista{
+			margin-bottom: 30px;
+		}
+
+		.conteudo_total .ul_documentos_lista{
+			padding-left: 38px;
+		}
+
+		.conteudo_total .ul_noticias_lista .opcao{
+			text-decoration: none;
+			font-size: 12px;
+			font-family: arial;
+			margin-bottom: 20px;
+			display: block;
+		}
+
+		/*-----	Documento-----*/
+
+		.conteudo_total .documento {
+			display: block;
+			border-bottom: 1px solid #dddddd;
+			margin-bottom: 30px;
+		}
+
+		.conteudo_total .process_seletivo{
+			margin-bottom: 30px;
+			display: block;
+			color: #6b5737;
+
+		}
+
+		.conteudo_total .fonte_documento{
+			margin-bottom: 30px;
+
+		}
+
+		.conteudo_total .ul_documento{
+			padding-left: 38px;
+		}
+
+		.conteudo_total .ul_documento .opcao{
+			text-decoration: none;
+			font-size: 12px;
+			font-family: arial;
+			margin-bottom: 20px;
+			display: block;
+		}
+
+		/*-----	Notícias Lista-----*/
+		.conteudo_total .ul_noticias_lista{
+			padding-left: 38px;
+		}
+
+		.conteudo_total .noticias_lista{
+			display: block;
+			border-bottom: 1px solid #dddddd;
+			margin-bottom: 30px;
+
+		}
+
+		.conteudo_total .fonte_noticias_lista{
+			margin-bottom: 30px;
+		}
+
+		.conteudo_total strong{
+			color: #3f5c9f;
+		}
+
+		/*-----	Notícias-----*/
+
+		.conteudo_total .adiada{
+			color: #2b5399;
+		}
+
+		.conteudo_total .data{
+			color: #b5b4b5;
+			margin-bottom: 30px;
+		}
+
+		.conteudo_total .imagem {
+			float: left;
+			width: 152px;
+			min-height: 152px;
+			margin: 5px 15px 5px 0px;
+		}
+
+		.conteudo_total .imagem a img{
+			border: 1px solid #bab9ba;
+			max-width: 150px;
+			max-height: 150px;
+		}
+
+		.conteudo_total .imagem .texto_legenda p{
+			display: block;
+			width: 100%;
+			height: auto;
+			margin: 0;
+			line-height: 18px;
+			color: #c5c4c5;
+		}
+
+		.conteudo_total .imagem a:hover > img{
+			border: 1px solid #00a0a0;
+		}
+
+		.conteudo_total .imagem a:hover > .texto_legenda p{
+			color: #00a0a0;
+		}
+
+		.conteudo_total .arquivo_anexo{
+			display: block;
+			margin-top: 20px;
+			font-family: arial;
+			font-size: 12px;
+
+		}
+
+		.conteudo_total .arquivo_anexo a:hover{
+			color: #00a0a0;
+		}
+
+		.conteudo_total .fonte_noticias{
+			line-height: 15px;
+			text-align: justify;
+		}
+
+		.conteudo_total .linha_voltar{
+			margin-top: 40px;
+			color: #dddddd;
+			border-color: #dddddd;
+			border-style: none none solid;
+		}
+
+		.conteudo_total .voltar{
+			
+			padding-top: 2px;
+			padding-left: 15px;
+			background: url("../img/icon_seta.png") no-repeat scroll left center rgba(0,0,0,0);
+			font-family: arial;
+			font-size: 15px;
+			font-weight: bold;
+			line-height: 22px;
+
+
+		}
+
+		.conteudo_total .voltar:hover{
+			color: #00a0a0;
+		}
+
+		/*-----	Fale Conosco -----*/
+
+.conteudo_total #mensagemEnvio {
+	width:498px;
+	margin: 30px auto 0;
+  	min-height: 24px;
+	height: auto;
+	padding: 15px 0;
+	background: #F5E0E0;
+	border: 1px solid #FF6767;
+
+	/* bordas arredondadas */
+	-o-border-radius: 0.7em;
+	-khtml-border-radius: 0.7em;
+	-moz-border-radius: 0.7em;
+	-webkit-border-radius: 0.7em;
+	border-radius: 0.7em;
+}
+
+.conteudo_total #mensagemEnvio.ok {
+  background: #E0F5E6;
+  border-color: #36B574;
+}
+
+	#mensagemEnvio p {
+		margin: 0;
+		text-align: center;
+		color: #EC413E;
+		font-weight: bold;
+		text-shadow: 1px 1px 0 #F0F5F8;
+	}
+
+	#mensagemEnvio.ok p {
+		color: #007236;
+	}
+
+		.conteudo_total .contato{
+			border-bottom: 1px solid #dddddd;
+			margin-bottom: 30px;
+		}
+
+		.conteudo_total .form_contato{
+			margin: 40px auto 0;
+			width: 500px;
+			height: auto;
+			display: block;
+		}
+
+		.conteudo_total .form_contato .area_campo{
+			display: block;
+			height: 32px;
+			width: 100%;
+			margin: 0 0 10px;
+			position: relative;
+
+		}
+
+		.conteudo_total .form_contato .area_campo_maior{
+			display: block;
+			width: 100%;
+			min-height: 200;
+			margin-bottom: 10px;
+
+		}
+
+		.conteudo_total .form_contato .area_campo_maior label{
+			font-size: 12px;
+			font-family: arial;
+			color: #6b5737;
+			float:  left;
+			width: 75px;
+			height: 30px;
+			line-height: 30px;
+
+		}
+
+		.conteudo_total .form_contato .area_campo_maior textarea{
+			background: #f7f7f7;
+			font-family: arial;
+			font-size: 12px;
+			width: 406px;
+			height: 190px;
+			border: 1px solid #dddddd;
+			border-radius: 10px;
+			padding: 5px 7px;
+
+		}
+
+		.conteudo_total .form_contato .area_campo_maior textarea:hover{
+			border: 1px solid #6b5737;
+
+
+		}
+
+
+
+		.conteudo_total .form_contato .area_campo label{
+			font-size: 12px;
+			font-family: arial;
+			color: #6b5737;
+			float:  left;
+			width: 75px;
+			height: 30px;
+			line-height: 30px;
+
+		}
+
+		.conteudo_total .form_contato .area_campo input{
+			background: #f7f7f7;
+			font-family: arial;
+			font-size: 12px;
+			width: 407px;
+			height: 30px;
+			border: 1px solid #dddddd;
+			border-radius: 10px;
+			padding: 0px 7px;
+		}
+
+		.conteudo_total .form_contato .area_campo input:hover{
+			border: 1px solid #6b5737;
+		}
+
+		.conteudo_total .form_contato .area_botoes{
+			width: 100%;
+			height: 35px;
+			display: block;
+		}
+
+		.conteudo_total .form_contato .area_botoes button{
+			background-color: #e2ca97;
+			float: right;
+			height: 35px;
+			width: 76px;
+			margin-left: 7px;
+			border: #dddddd;
+			border-radius: 10px;
+		}
+
+		.conteudo_total .form_contato .area_botoes button:hover{
+			color: #ffffff;
+			background: #6b5737;
+			cursor: pointer;
+
+		}
+
+
+
+		/*-----	Fale Conosco -----*/
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

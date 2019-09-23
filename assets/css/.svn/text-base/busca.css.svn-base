@@ -1,0 +1,353 @@
+/*
+*  CSS Document - busca google
+*  Autor: Andressa Kroeff Pires (SINFO)
+*  E-mail: andressa@info.ufrn.br
+*  Data: 16/05/2012
+*/
+
+.conteudo .cse a, .conteudo .cse input, .conteudo .cse img {
+	outline: 0;
+	width:auto;
+	height:auto;
+	max-height:auto;
+	max-width:auto;
+}
+
+.conteudo .cse .gsc-control-cse, .gsc-control-cse {
+	width: 98%;
+	margin: 0px auto;
+	height: auto !important;
+	padding: 0;
+	background: none !important;
+}
+
+	.cse .gsc-control-cse {
+		font-family: "Arial",Tahoma,Verdana,Helvetica,sans-serif;
+		font-size: 9pt;
+		color: #3b373c;
+		border: none;
+		background: none !important;
+	}
+
+	.conteudo .cse table, .conteudo .cse table tr, .conteudo .cse table tr td {
+		border: none;
+		height: auto;
+	    padding: 0
+	}
+
+	/* tamanho textos */
+	.cse .gs-title, .gs-title, .cse div.gs-title, div.gs-title, .cse .gs-snippet, .gs-snippet {
+		font-size: 9pt;
+		line-height: 18px;
+	}
+
+	.cse input.gsc-input, input.gsc-input {
+		background: transparent;
+		height: 23px;
+		width: 545px;
+		border:solid #DDDDDD 1px;
+		margin: 0;
+		padding: 5px 9px;
+
+		color: #777;
+		font-size: 8pt;
+		font-family: "Arial",Tahoma,Verdana,Helvetica,sans-serif;
+
+		/* bordas arredondadas */
+		-o-border-radius: 0.7em;
+		-khtml-border-radius: 0.7em;
+		-moz-border-radius: 0.7em;
+		-webkit-border-radius: 0.7em;
+		border-radius: 0.7em;
+	}
+	
+	.cse table.gsc-search-box td.gsc-input, table.gsc-search-box td.gsc-input {
+		padding-right: 5px !important;
+	}
+
+	.cse input#gsc-i-id1, input#gsc-i-id1 {
+		background-position: 5px center;
+	}
+
+	.cse input.gsc-search-button, input.gsc-search-button {
+		height: 35px;
+		width: 80px;
+		cursor:pointer;
+		margin: 0;
+		margin-right: 4px !important;
+		vertical-align:top;
+
+		text-align:center;
+		font-family: "Arial",Tahoma,Verdana,Helvetica,sans-serif;
+		font-size: 9pt;
+		font-weight: bold;
+		color: #4E494F;
+
+		background: #FFE16A;
+		/* Old browsers */
+
+		background: -moz-linear-gradient(top, #FFE16A 0%, #FCD437 100%);
+		/* FF3.6+ */
+
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFE16A), color-stop(100%, #FCD437));
+		/* Chrome,Safari4+ */
+
+		background: -webkit-linear-gradient(top, #FFE16A 0%, #FCD437 100%);
+		/* Chrome10+,Safari5.1+ */
+
+		background: -o-linear-gradient(top, #FFE16A 0%, #FCD437 100%);
+		/* Opera 11.10+ */
+
+		background: -ms-linear-gradient(top, #FFE16A 0%, #FCD437 100%);
+		/* IE10+ */
+
+		background: linear-gradient(to bottom, #FFE16A 0%, #FFCB04 100%);
+		/* W3C */
+
+		/* bordas arredondadas */
+		-o-border-radius: 0.7em;
+		-khtml-border-radius: 0.7em;
+		-moz-border-radius: 0.7em;
+		-webkit-border-radius: 0.7em;
+		border-radius: 0.7em;
+
+		border: none;	
+	}
+
+		.cse input.gsc-search-button:hover, input.gsc-search-button:hover, .cse input.gsc-search-button:focus, input.gsc-search-button:focus {
+			background: #FFCB04;
+		}
+
+	td.gsc-clear-button {
+		width: 13px !important;
+	}
+
+		div.gsc-clear-button {
+			display: block;
+			margin: 0 2px;
+			width: 9px;
+			padding: 0;
+		}
+
+	.gsc-above-wrapper-area {
+		border-bottom: none;
+		padding: 0;
+	}
+
+		.gsc-above-wrapper-area .gsc-result-info {
+			font-family: "Arial",Tahoma,Verdana,Helvetica,sans-serif;
+			font-size: 9pt;
+			color: #3b373c;
+			padding: 0;
+			margin: 20px 0 0;
+			padding-bottom: 10px;
+			border-bottom: 1px dotted #ddd;
+		}
+
+	.gsc-wrapper, .gsc-thinWrapper {
+		display: block;
+		float: none;
+		margin: 0px auto;
+		padding: 0;
+		width: 100%;
+		color: #3b373c;
+	}
+
+	#adBlock, .gsc-adBlock, .gsc-adBlockVertical {
+		display: none !important;
+		float: none !important;
+		background:#FFF !important;
+		color:#FFF !important;
+		border:none !important;
+	}
+
+	.gs-no-results-result .gs-snippet {
+		background-color: #ba061b;
+		border: 1px solid #ba061b;
+	}
+
+	.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+		background:#F5E0E0  !important;
+		border: 1px solid #FF6767  !important;
+		width: 664px;
+		height: 15px !important;
+		padding: 15px 0;
+		margin: 0;
+
+		color: #EC413E !important;
+		font-family: "Arial",Tahoma,Verdana,Helvetica,sans-serif !important;
+		font-size: 10pt !important;
+		text-align: center;
+		font-weight: bold;
+		text-shadow: 1px 1px 0 #F0F5F8 !important;
+		line-height: normal !important;
+
+		/* bordas arredondadas */
+		-o-border-radius: 0.7em;
+		-khtml-border-radius: 0.7em;
+		-moz-border-radius: 0.7em;
+		-webkit-border-radius: 0.7em;
+		border-radius: 0.7em;	
+	}
+
+	.gsc-tabHeader.gsc-tabhInactive {
+		border-color: #ba061b;
+		background: none;
+	}
+
+	.gsc-tabHeader.gsc-tabhActive {
+		border-color: #ba061b;
+		background: none;
+	}
+
+	.gsc-tabsArea {
+		border-color: #E5E5E5;
+	}
+
+	.cse .gsc-results, .gsc-results {
+		background: none !important;
+		border-bottom: none !important;
+	}
+	
+	.gsc-webResult.gsc-result {
+		font-size: 9pt;
+		font-family: Verdana, Geneva, sans-serif;
+		border-color: #E5E5E5;
+		border-bottom: 1px dotted #DDDDDD;
+		background: none !important;
+	}
+
+	.gsc-webResult.gsc-result:hover {}
+
+	.cse .gs-title, .gs-title, .cse div.gs-title, div.gs-title, .cse .gs-snippet, .gs-snippet, .cse .gs-spelling, .gs-spelling {
+		font-size: 10pt !important;
+		font-family: "Arial",Tahoma,Verdana,Helvetica,sans-serif;
+		line-height: normal;
+		font-style: normal;
+		background: none;
+		margin-bottom: 5px;
+	}
+
+	.cse .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link, .cse .gs-webResult.gs-result a.gs-title:link b, .gs-webResult.gs-result a.gs-title:link b, .cse .gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited, .cse .gs-webResult.gs-result a.gs-title:visited b, .gs-webResult.gs-result a.gs-title:visited b, .cse .gs-webResult.gs-result a.gs-title:hover, .gs-webResult.gs-result a.gs-title:hover, .cse .gs-webResult.gs-result a.gs-title:hover b, .gs-webResult.gs-result a.gs-title:hover b, .cse .gs-webResult.gs-result a.gs-title:active, .gs-webResult.gs-result a.gs-title:active, .cse .gs-webResult.gs-result a.gs-title:active b, .gs-webResult.gs-result a.gs-title:active b, .cse .gsc-cursor-page, .gsc-cursor-page, .cse a.gsc-trailing-more-results:link, a.gsc-trailing-more-results:link, .cse .gs-spelling a, .gs-spelling a {
+    	color: #3b373c; !important;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 10pt !important;
+		background: none !important;
+	}
+
+	a.gs-title, a.gs-title:hover, a.gs-title:link, a.gs-title:visited, a.gs-title:active, a.gs-title:hover b, a.gs-title:link b, a.gs-title:visited b, a.gs-title:active b {
+		color: #3b373c; !important;
+		font-weight: bold;
+	}
+
+	a.gs-title:hover {
+		text-decoration: underline;
+	}
+
+	.gs-result img.gs-image, .gs-result img.gs-promotion-image {
+		border: 3px solid #fff;
+		box-shadow: 0 0 1px #777;
+		max-width: 56px;
+		max-height: 70px;
+	}
+
+	.gsc-cursor-page {
+		color: #ba061b;
+	}
+
+	a.gsc-trailing-more-results:link {
+		color: #ba061b;
+	}
+	
+	.gs-webResult.gs-result .gs-snippet {
+		font-size: 9pt !important;
+		color: #3b373c;
+		line-height: 14pt !important;
+		text-transform: none;
+		margin-bottom: 0;
+	}
+
+	.gs-webResult.gs-result .gs-visibleUrl, .gs-webResult.gs-result .gs-visibleUrl-short {
+		color: #0095da;
+		font-style: italic;
+		margin: 3px 0 0;
+	}
+
+	.gs-webResult.gs-result .gs-visibleUrl-short {
+		display: none;
+	}
+
+	.gs-webResult.gs-result .gs-visibleUrl-long {
+		display: block;
+	}
+
+	.cse .gsc-cursor-box, .gsc-cursor-box {
+		margin-top: 20px;
+		border: none;
+	}
+
+	.gsc-results .gsc-cursor-box .gsc-cursor-page {
+		text-decoration: none !important;
+	}
+
+	.gsc-results .gsc-cursor-page {
+		color: #777777  !important;
+		border-color: #FFE16A;
+		border-radius: 0.5em !important;
+		background-color: #FFFFFF;
+		text-shadow: none !important;
+	}
+
+		.gsc-results .gsc-cursor-page:hover {
+			color: #3b373c  !important;
+		}
+
+	.gsc-results .gsc-cursor-page.gsc-cursor-current-page, .gsc-results .gsc-cursor-page.gsc-cursor-current-page:hover {
+		background: #FFCB04 !important;
+		color: #3b373c !important;
+	}
+
+	.gs-promotion.gs-result {
+		border-color: #ba061b;
+		background-color: #EEF8FB;
+	}
+	.gs-promotion.gs-result a.gs-title:link {
+		color: #ba061b;
+	}
+	.gs-promotion.gs-result a.gs-title:visited {
+		color: #ba061b;
+	}
+	.gs-promotion.gs-result a.gs-title:hover {
+		color: #ba061b;
+	}
+	.gs-promotion.gs-result a.gs-title:active {
+		color: #ba061b;
+	}
+	.gs-promotion.gs-result .gs-snippet {
+		color: #3b373c;
+	}
+	.gs-promotion.gs-result .gs-visibleUrl,
+	.gs-promotion.gs-result .gs-visibleUrl-short {
+		color: #ba061b;
+	}
+
+	.cse .gsc-webResult, .gsc-webResult, .gsc-webresult .gsc-result, .gsc-imageResult-classic, .gsc-imageResult-column {
+		border: none;
+		padding: 0;
+		height: auto;
+		margin: 20px auto 0;
+	}
+
+		.gs-webResult, .gs-promotion {
+			margin: 0;
+		}
+
+		.gcsc-branding {
+			margin-top: 20px;
+			border-top: 1px dotted #DDDDDD;
+			padding-top: 5px;
+			font-family: "Arial",Tahoma,Verdana,Helvetica,sans-serif !important;
+			font-size: 8pt !important;
+			color: #777777;
+		}

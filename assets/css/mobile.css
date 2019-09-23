@@ -1,0 +1,21 @@
+.barra{
+    display: none;
+}
+
+.titulo{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.cabecalho {
+    margin:0px auto;
+    height:102px;
+    width: 56%;
+}
+
+.brasao{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
